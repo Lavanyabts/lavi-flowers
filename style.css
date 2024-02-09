@@ -1,4 +1,4 @@
-*,
+*, 
 *::after,
 *::before {
   padding: 0;
@@ -34,6 +34,46 @@ body {
 .flowers {
   position: relative;
   transform: scale(0.9);
+}
+
+.flower--1::after{
+content: "valentise❤️";
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #D0A2F7;
+font-size: 25px;
+font-family: "Protest Riot", cursive;
+font-style: normal;
+font-weight: bold;
+text-align: center;
+}
+
+.flower--2::after{
+content: "Day";
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #D0A2F7;
+font-size: 25px;
+font-family: "Protest Riot", cursive;
+font-weight: bolder;
+text-align: center;
+}
+
+.flower--3::after{
+content: "happy";
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #D0A2F7;
+font-size: 25px;
+font-family: "Protest Riot", cursive;
+font-weight: bolder;
+text-align: center;
 }
 
 .flower {
